@@ -3,7 +3,7 @@
 Go to directory
 > cd /docker/dev
 
-then  build container of docker php8 y apache
+then  build container of docker php8 y nginx
 ```
 sudo docker-compose build
 ```
