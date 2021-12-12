@@ -15,6 +15,7 @@ class CreateTblBrand extends Migration
     {
         Schema::create('tbl_brand', function (Blueprint $table) {
             $table->id();
+            $table->string('name',45);
             $table->timestamps();
         });
     }
